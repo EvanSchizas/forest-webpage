@@ -1,0 +1,25 @@
+.container { 
+    display: flex;
+    flex-direction: column;
+    }
+  .header {
+    background: #BFCEB6;
+    
+  }
+  .logo {
+      background: #c3c595;
+  }
+  .content{
+    background: yellowgreen;
+  }
+  .sidebar{
+    background: #7D9681;
+  }
+  .footer{
+    background: #E6BFD3;
+  }
+  .container > div {
+    font-size: 5vw;
+    padding: .5em;
+    color: white;
+  }
